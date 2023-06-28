@@ -19,6 +19,7 @@ pricesArr.forEach((elm)=>{
 
   td.innerText=`Total Price = ${sum}`;
   td.colSpan='2';
+	td.id='ans';
 //   td.style.textAlign='justify';
   tr.append(td);
   table.append(tr);
